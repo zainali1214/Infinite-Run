@@ -1,7 +1,7 @@
 # ♾️ Infinite-Run
 ### *Cinematic 3D Browser Gaming | High-Fidelity UI/UX*
 
-![Project Hero Banner](https://via.placeholder.com/1200x400/0D3A52/4B58FF?text=Infinite+Run+3D+Experience)
+![Project Hero Banner](assets/banner.png)
 
 ---
 
