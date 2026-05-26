@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INFINITE RUN // CLEAN RUNTIME</title>
+</head>
+<body>
+
+    <div id="canvas-container"></div>
+
+    <div id="ui-layer">
+        <div id="score-display">SEQ // 00000</div>
+        <div id="crystals-display">NODES // 0</div>
+    </div>
+
+    <div id="screen-overlay">
+        <div id="view-start" class="menu-inner active">
+            <h1>INFINITE RUN</h1>
+            <p class="subtitle">A/D to steer • SPACEBAR to leap</p>
+            <button id="start-btn" class="trigger-btn">ENGAGE</button>
+        </div>
+
+        <div id="view-over" class="menu-inner">
+            <h1 style="font-size: 28px; letter-spacing: 16px; margin-bottom: 24px;">RUN TERMINATED</h1>
+            <div class="metrics-summary">
+                <div class="metric-block">
+                    <div class="metric-label">Score</div>
+                    <div id="m-score" class="metric-value">00000</div>
+                </div>
+                <div class="metric-block">
+                    <div class="metric-label">Velocity</div>
+                    <div id="m-speed" class="metric-value">000 KT</div>
+                </div>
+                <div class="metric-block">
+                    <div class="metric-label">Peak</div>
+                    <div id="m-peak" class="metric-value">00000</div>
+                </div>
+            </div>
+            <button id="retry-btn" class="trigger-btn">RE-ENGAGE</button>
+        </div>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+</body>
+</html>
