@@ -8,7 +8,7 @@
 ## 📖 Overview
 **Infinite-Run** is a high-performance 3D browser-based experience. By merging the technical precision of **Three.js** with professional-grade UI/UX design, this project pushes the boundaries of web-based interactivity. It features cinematic camera systems, responsive design, and a curated brand language for a premium aesthetic.
 
-> **[🚀 CLICK HERE TO VIEW LIVE DEMO](YOUR-VERCEL-URL-HERE)**
+> **[🚀 CLICK HERE TO VIEW LIVE DEMO](https://infinite-run-three.vercel.app/)**
 
 ---
 
